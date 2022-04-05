@@ -288,8 +288,9 @@ th {
         border-top-color: #000 !important
     }
     .label {
-        border: 1px solid #000
+        border: 1px solid #000;
     }
+    
     .table {
         border-collapse: collapse !important
     }
@@ -3227,7 +3228,7 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
 .checkbox,

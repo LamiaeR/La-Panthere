@@ -11,6 +11,7 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: none;
 }
 
 a:hover {
@@ -292,14 +293,14 @@ a:hover {
     z-index: 1;
 }
 
-.navbar-brand {
+/* .navbar-brand {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
-}
+} */
 
 .navbar-brand img {
     max-height: 200px;
@@ -317,7 +318,7 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    margin-right:10%;
     float: right;
     z-index: 1;
 }
@@ -325,7 +326,9 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    list-style: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -335,6 +338,10 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    text-decoration: underline;
+    font-weight: 700;
+    color:rgb(13, 3, 3);
+
 }
 
 .navbar-toggle {
@@ -659,7 +666,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 38px;    
 }
 
 .hero-bloc-text-sub {
@@ -677,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .tight-width-whitespace {
@@ -775,7 +782,11 @@ h4 {
 }
 
 .tc-white {
-    color: white!important;
+    color:white!important;
+}
+.tc-black{
+    color: black;
+        text-align: center;
 }
 
 .btn-atomic-tangerine {
