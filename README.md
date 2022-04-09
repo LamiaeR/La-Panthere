@@ -1,5 +1,7 @@
 # La-Panthere
+
 Projet4 de la formation OpenClassRooms "développeur web" : Optimisez un site web existant:
+
 L'objectif de la mission: Amélioration du référencement.
 Le scénario:
 Le site n’apparaît qu’en deuxième page des moteurs de recherche. Pour cela,le référencement doit être amélioré.
