@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
 }
 
 a,
@@ -454,6 +455,7 @@ nav .caret {
 
 .btn {
     margin: 0 5px 5px 0;
+   
 }
 
 .btn.pull-right {
@@ -660,7 +662,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #000000!important;
 }
 
@@ -799,10 +801,15 @@ h4 {
 .btn-atomic-tangerine {
     background: #F49B71;
     color:black!important;
+    
+}
+.btn-contacte{
+    width: 53%;
+    border-radius: 6px;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: black!important;
     color: #FFFFFF!important;
 }
 
