@@ -1429,7 +1429,7 @@ figure {
 
 img {
     vertical-align: middle;
-    width:200px;
+    width:150px;
  margin:0 auto
 }
 
@@ -1794,8 +1794,6 @@ ul {
    display: flex;
    justify-content: space-between;
     
-}
-.liste{
 }
 
 ol ol,
