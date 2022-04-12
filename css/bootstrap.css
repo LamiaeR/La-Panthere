@@ -1789,7 +1789,13 @@ a.bg-danger:hover {
 ol,
 ul {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    list-style: none;
+   display: flex;
+   justify-content: space-between;
+    
+}
+.liste{
 }
 
 ol ol,
@@ -2308,7 +2314,7 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%
+        width: 100%;
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -2333,6 +2339,10 @@ pre code {
     }
     .col-sm-4 {
         width: 33.33333333%
+    }
+    .liste-partenaires{
+        width: 90%;
+
     }
     .col-sm-3 {
         width: 25%
