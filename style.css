@@ -310,7 +310,7 @@ a:hover {
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    min-width: 300px;
 }
 
 .nav-center .navbar-brand img {
@@ -753,6 +753,7 @@ h4 {
 .black{
     color:rgb(0, 0, 0);
     text-align: center;
+    margin-top: 2%;
 }
 
 .portfolio-thumb {
@@ -1063,5 +1064,11 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    @media (max-width:420px) {
+      .liste{
+          display: flex;
+          justify-content:space-between;
+      }  
     }
 }
