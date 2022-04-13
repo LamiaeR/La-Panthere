@@ -2020,7 +2020,8 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
+    
 }
 
 .col-lg-1,
@@ -2330,7 +2331,9 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%
+        width: 50%;
+       
+        
     }
     .col-sm-5 {
         width: 41.66666667%
@@ -3237,7 +3240,7 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
 }
 
 .checkbox,

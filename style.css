@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -520,6 +520,8 @@ button {
     box-shadow: none;
     width: 50%;
     padding: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .scrollToTop {
@@ -534,7 +536,8 @@ button {
 }
 
 .scrollToTop span {
-    margin-top: 6px;
+    margin-top: 10px;
+    margin-left: 12px;
 }
 
 .showScrollTop {
@@ -714,6 +717,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+ 
 }
 
 h2 {
@@ -874,13 +878,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -899,8 +903,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -910,8 +914,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 5%;
+        padding-right:5px;
     }
 }
 
@@ -1003,11 +1007,11 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .bloc-xxl,
+   .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
-    }
+        padding: 40px 20px;
+    } 
     .bloc-sm,
     .bloc-md {
         padding-left: 0;
