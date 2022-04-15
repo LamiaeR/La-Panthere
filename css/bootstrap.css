@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 article,
@@ -2332,8 +2332,7 @@ pre code {
     }
     .col-sm-6 {
         width: 50%;
-       
-        
+           
     }
     .col-sm-5 {
         width: 41.66666667%
@@ -3242,6 +3241,9 @@ input[type=search] {
 .form-group {
     margin-bottom: 15px;    
 }
+.texte-label{
+    font-size: 19px;
+}
 
 .checkbox,
 .radio {
@@ -3576,7 +3578,8 @@ textarea.input-lg {
     .form-inline .form-group {
         display: inline-block;
         margin-bottom: 0;
-        vertical-align: middle
+        vertical-align: middle;
+    
     }
     .form-inline .form-control {
         display: inline-block;
@@ -4239,7 +4242,7 @@ fieldset[disabled] .btn-link:hover {
 
 .btn-block {
     display: block;
-    width: 100%
+    width: 350px;
 }
 
 .btn-block+.btn-block {
@@ -5372,7 +5375,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (max-width:767px) {
     .navbar-form .form-group {
-        margin-bottom: 5px
+        margin-bottom: 5px;
+        
     }
     .navbar-form .form-group:last-child {
         margin-bottom: 0

@@ -296,7 +296,7 @@ a:hover {
 
  .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: 15px 15px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -305,7 +305,7 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
+    margin:  35px 0 0 0;
     display: inline;
 }
 
@@ -518,10 +518,10 @@ button {
 .form-control {
     border-color: rgba(11, 7, 7, 0.1);
     box-shadow: none;
-    width: 50%;
     padding: 10px;
     margin-top: 2%;
     margin-bottom: 2%;
+    width: 350px;
 }
 
 .scrollToTop {
@@ -536,8 +536,8 @@ button {
 }
 
 .scrollToTop span {
-    margin-top: 10px;
-    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .showScrollTop {
@@ -665,8 +665,11 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    /* font-weight: 400; */
+     font-weight: 400; 
     color: #000000!important;
+}
+.coordonnes{
+    font-size: 27px;
 }
 
 .container {
@@ -715,11 +718,11 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    width:400px;
     margin: auto auto auto auto;
- 
 }
-
+ 
+    
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -808,10 +811,10 @@ h4 {
     color:black!important;
     
 }
-.btn-contacte{
-    width: 53%;
+/* .btn-contacte{
+    width: 80%;
     border-radius: 6px;
-}
+} */
 
 .btn-atomic-tangerine:hover {
     background: black!important;
@@ -923,6 +926,7 @@ h4 {
     .page-container {
         overflow-x: hidden;
         position: relative;
+        
     }
     h1,
     h2,
@@ -1069,10 +1073,13 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    
+    } 
     @media (max-width:420px) {
       .liste{
           display: flex;
-          justify-content:space-between;
-      }  
-    }
+        flex-direction: column;      
+   }
+  
+  
 }
