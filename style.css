@@ -305,7 +305,7 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
-    margin:  35px 0 0 0;
+    /* margin:  0px 0 0 0; */
     display: inline;
 }
 
@@ -327,7 +327,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    /* margin-bottom: 30px; */
+     /* margin-bottom: 30px;  */
     font-size: 16px;
     list-style: none;
 }
@@ -944,8 +944,10 @@ h4 {
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
+        padding-left: 30px;
+        /* border-top: 1px solid rgba(0, 0, 0, .2); */
         float: none!important;
+        width: 100%;
     }
     .navbar.row {
         margin-left: 0;

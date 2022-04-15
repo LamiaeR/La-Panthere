@@ -2342,9 +2342,12 @@ pre code {
         width: 33.33333333%
     }
     .liste-partenaires{
-        width: 90%;
-
+        width: 100%;
     }
+    .partenaires{
+        font-weight:bold;
+    }
+    
     .col-sm-3 {
         width: 25%;
     }
