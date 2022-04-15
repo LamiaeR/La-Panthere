@@ -936,8 +936,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1045,7 +1045,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 20px;
     }
     .close-lightbox {
         display: inline-block;
