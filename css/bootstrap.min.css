@@ -1488,7 +1488,9 @@ ul {
   margin-bottom: 10px;
   list-style: none;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  font-size: 20px;
 }
 .list-inline {
   margin-left: -5px;
@@ -1902,9 +1904,11 @@ pre code {
   }
   .liste-partenaires {
     width: 100%;
+    margin-top: 3%;
+    font: 10px;
   }
   .partenaires {
-    font-weight: 700;
+  margin-bottom: 5%;    
   }
   .col-sm-3 {
     width: 25%;
@@ -6898,6 +6902,13 @@ button.close {
     display: none !important;
   }
 }
+@media (min-width: 400px) and (max-width: 768px) {
+  .ol, ul{
+    display:flex;
+    flex-direction: column;
+  }
+}
+
 .visible-print {
   display: none !important;
 }

@@ -263,7 +263,7 @@ a:hover {
   display: inline;
 }
 .navbar-brand img[src$="svg"] {
-  min-width: 200px;
+  min-width: 280px;
 }
 .nav-center .navbar-brand img {
   margin: 0;
@@ -380,6 +380,9 @@ nav .caret {
 .mg-md {
   margin-top: 10px;
   margin-bottom: 20px;
+}
+.p-footer{
+  font-size: 30px;
 }
 .mg-lg {
   margin-top: 10px;
@@ -649,7 +652,7 @@ h4 {
 }
 .portfolio-thumb {
   margin-bottom: 24px;
-  width: 100%;
+  width: 99%;
 }
 .portfolio-row {
   margin-bottom: 44px;
@@ -926,4 +929,5 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+ 
 }
