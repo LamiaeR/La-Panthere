@@ -1,6 +1,17 @@
+
+# GZIP Apache 2.0
+# BEGIN GZIP
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
+
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+# END GZIP
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
-<FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+<FilesMatch "\.(ico|jpg|png|gif|swf|css|gz)$">
 Header set Cache-Control "max-age=2592000, public"
 </FilesMatch>
 <FilesMatch "\.(js)$">
@@ -22,6 +33,7 @@ Header unset Cache-Control
  ExpiresByType image/jpeg "access plus 31536000 seconds"
  ExpiresByType image/png "access plus 31536000 seconds"
  ExpiresByType image/bmp "access plus 31536000 seconds"
+  ExpiresByType image/webp "access plus 31536000 seconds"
  ExpiresByType image/woff "access plus 31536000 seconds"
  ExpiresByType image/ico "access plus 31536000 seconds"
  ExpiresByType text/css "access plus 31536000 seconds"
