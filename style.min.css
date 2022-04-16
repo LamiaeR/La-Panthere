@@ -263,7 +263,7 @@ a:hover {
   display: inline;
 }
 .navbar-brand img[src$="svg"] {
-  min-width: 300px;
+  min-width: 200px;
 }
 .nav-center .navbar-brand img {
   margin: 0;
@@ -649,6 +649,7 @@ h4 {
 }
 .portfolio-thumb {
   margin-bottom: 24px;
+  width: 100%;
 }
 .portfolio-row {
   margin-bottom: 44px;
@@ -924,11 +925,5 @@ h4 {
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
-  }
-}
-@media (max-width: 420px) {
-  .liste {
-    display: flex;
-    flex-direction: column;
   }
 }
