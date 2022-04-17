@@ -1908,7 +1908,7 @@ pre code {
     font: 10px;
   }
   .partenaires {
-  margin-bottom: 5%;    
+    margin-bottom: 5%;
   }
   .col-sm-3 {
     width: 25%;
@@ -6903,8 +6903,9 @@ button.close {
   }
 }
 @media (min-width: 400px) and (max-width: 768px) {
-  .ol, ul{
-    display:flex;
+  .ol,
+  ul {
+    display: flex;
     flex-direction: column;
   }
 }
